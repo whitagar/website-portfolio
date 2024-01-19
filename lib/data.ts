@@ -2,11 +2,6 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import lynchPinImg from "@/public/LPG.png";
-import mvpImg from "@/public/mvp.png";
-import sunandsolImg from "@/public/SunAndSol.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -68,7 +63,7 @@ export const projectsData = [
     description:
       "A public web app for a local beauty services company. Created an onboarding and retention flow using AWS Lambda.",
     tags: ["Next.js", "Node.js", "React", "AWS Lambda"],
-    imageUrl: sunandsolImg,
+    imageUrl: "/SunAndSol.png",
     externalUrl: "https://sunandsolstudios.com",
   },
   {
@@ -76,15 +71,15 @@ export const projectsData = [
     description:
       "An onboarding questionnaire, account management dashboard, and admin dashboard for a marketing company",
     tags: ["Next.js", "Node.js", "DynamoDB"],
-    imageUrl: mvpImg,
+    imageUrl: "/mvp.png",
     externalUrl: "https://mvp.megagonventures.com",
   },
   {
     title: "LynchPin Gigs",
     description:
       "A freelance marketplace with support for multiple languages and locales.",
-    tags: ["PHP", "Wordpres", "HTML", "CSS", "Javascript"],
-    imageUrl: lynchPinImg,
+    tags: ["PHP", "Wordpress", "HTML", "CSS", "Javascript"],
+    imageUrl: "/LPG.png",
     externalUrl: "https://lynchpingigs.com",
   },
 ] as const;
