@@ -19,30 +19,24 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        I am a full-time software engineer at Neighbor Storage, an online
+        marketplace for self-storage and vehicle storage. I graduated from
+        Western Governor's University in Fall 2021, and have worked full-time as
+        a software engineer ever since.
+      </p>
+
+      <p className="mb-3">
+        Ever since I was little, I loved to solve puzzles. I started programming
+        using a software called Scratch as a 10 year old. Building the
+        instructions to even the smallest games in Scratch always captivated me.
+        I loved solving complex problems with code.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">When I'm not coding</span>, I enjoy
+        snowboarding, travelling, eating good food, and playing board games. I
+        also love to run, and recently completed my first marathon (hopefully it
+        won't be my last) in June 2023.
       </p>
     </motion.section>
   );
