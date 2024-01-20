@@ -67,7 +67,8 @@ export default function Project({
 
         group-even:right-[initial] group-even:-left-40"
           width={452}
-          height={1}
+          height={250}
+          style={{ height: "auto" }}
         />
       </section>
     </motion.a>
