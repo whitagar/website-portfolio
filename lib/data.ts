@@ -2,9 +2,6 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import sunAndSolImg from "../public/SunAndSol.png";
-import lpgImg from "../public/LPG.png";
-import mvpImg from "../public/mvp.png";
 
 export const links = [
   {
@@ -66,7 +63,7 @@ export const projectsData = [
     description:
       "A public web app for a local beauty services company. Created an onboarding and retention flow using AWS Lambda.",
     tags: ["Next.js", "Node.js", "React", "AWS Lambda"],
-    imageUrl: sunAndSolImg,
+    imageUrl: "/SunAndSol.PNG",
     externalUrl: "https://sunandsolstudios.com",
   },
   {
@@ -74,7 +71,7 @@ export const projectsData = [
     description:
       "An onboarding questionnaire, account management dashboard, and admin dashboard for a marketing company",
     tags: ["Next.js", "Node.js", "DynamoDB"],
-    imageUrl: mvpImg,
+    imageUrl: "/mvp.PNG",
     externalUrl: "https://mvp.megagonventures.com",
   },
   {
@@ -82,7 +79,7 @@ export const projectsData = [
     description:
       "A freelance marketplace with support for multiple languages and locales.",
     tags: ["PHP", "Wordpress", "HTML", "CSS", "Javascript"],
-    imageUrl: lpgImg,
+    imageUrl: "/LPG.PNG",
     externalUrl: "https://lynchpingigs.com",
   },
 ] as const;
