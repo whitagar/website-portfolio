@@ -66,9 +66,6 @@ export default function Project({
         group-even:group-hover:rotate-2
 
         group-even:right-[initial] group-even:-left-40"
-          width={452}
-          height={250}
-          style={{ height: "auto" }}
         />
       </section>
     </motion.a>

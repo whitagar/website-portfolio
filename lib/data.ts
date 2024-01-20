@@ -2,6 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import sunAndSolImg from "../public/SunAndSol.png";
+import lpgImg from "../public/LPG.png";
+import mvpImg from "../public/mvp.png";
 
 export const links = [
   {
@@ -32,6 +35,14 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Full-Stack Software Engineer @ Neighbor",
+    location: "Lehi, UT",
+    description:
+      "I'm now a full-stack developer working as a freelancer on the side. I specialize in web applications using React-based frameworks (Next.js, Remix).",
+    icon: React.createElement(FaReact),
+    date: "2021 - present",
+  },
+  {
     title: "Web developer",
     location: "Springville, UT",
     description:
@@ -43,17 +54,9 @@ export const experiencesData = [
     title: "Bachelor's Degree in Computer Science",
     location: "Salt Lake City, UT",
     description:
-      "I graduated from Western Governor's University with a degree in Computer Science",
+      "I graduated from Western Governor's University with coursework focused on software development and machine learning",
     icon: React.createElement(LuGraduationCap),
-    date: "Oct 2021",
-  },
-  {
-    title: "Full-Stack Software Engineer @ Neighbor",
-    location: "Lehi, UT",
-    description:
-      "I'm now a full-stack developer working as a freelancer on the side. I specialize in web applications using React-based frameworks (Next.js, Remix).",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2017 - 2021",
   },
 ] as const;
 
@@ -63,7 +66,7 @@ export const projectsData = [
     description:
       "A public web app for a local beauty services company. Created an onboarding and retention flow using AWS Lambda.",
     tags: ["Next.js", "Node.js", "React", "AWS Lambda"],
-    imageUrl: "/SunAndSol.png",
+    imageUrl: sunAndSolImg,
     externalUrl: "https://sunandsolstudios.com",
   },
   {
@@ -71,7 +74,7 @@ export const projectsData = [
     description:
       "An onboarding questionnaire, account management dashboard, and admin dashboard for a marketing company",
     tags: ["Next.js", "Node.js", "DynamoDB"],
-    imageUrl: "/mvp.png",
+    imageUrl: mvpImg,
     externalUrl: "https://mvp.megagonventures.com",
   },
   {
@@ -79,7 +82,7 @@ export const projectsData = [
     description:
       "A freelance marketplace with support for multiple languages and locales.",
     tags: ["PHP", "Wordpress", "HTML", "CSS", "Javascript"],
-    imageUrl: "/LPG.png",
+    imageUrl: lpgImg,
     externalUrl: "https://lynchpingigs.com",
   },
 ] as const;
